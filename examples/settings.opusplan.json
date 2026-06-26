@@ -1,0 +1,11 @@
+{
+  "_comment": "Varianta pro velké refaktory: opusplan = Claude přemýšlí jako Opus, píše jako Sonnet (levněji).",
+  "model": "opusplan",
+  "permissions": {
+    "defaultMode": "plan",
+    "deny": [
+      "Bash(rm -rf *:*)",
+      "Edit(.env*)"
+    ]
+  }
+}
