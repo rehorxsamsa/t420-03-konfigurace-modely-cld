@@ -1,0 +1,22 @@
+{
+  "model": "claude-sonnet-4-6",
+  "env": {
+    "CLAUDE_CODE_MAX_OUTPUT_TOKENS": "32000"
+  },
+  "permissions": {
+    "allow": [
+      "Read",
+      "Edit",
+      "Bash(php tests/run.php:*)",
+      "Bash(php -l *:*)",
+      "Bash(docker compose *:*)",
+      "Bash(git status:*)",
+      "Bash(git diff:*)"
+    ],
+    "deny": [
+      "Bash(rm -rf *:*)",
+      "Edit(.env*)",
+      "Bash(git push *:*)"
+    ]
+  }
+}
