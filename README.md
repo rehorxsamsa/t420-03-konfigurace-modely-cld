@@ -32,7 +32,7 @@ Nebo jen `/model` a vyber z nabídky. Přepnutí mid-session bez ztráty kontext
 
 ## 2. aktuální modely 2026
 
-Cheatsheet uvádí Opus 4.1 / Sonnet 4 / Haiku 3.5. To jsou **staré názvy**. Aktuální lineup (červen 2026):
+Aktuální lineup (červen 2026):
 
 | Tier | Model | API string | Kdy použít |
 |---|---|---|---|
@@ -72,7 +72,7 @@ Zobrazí a umožní měnit konfiguraci přímo v session. Pro většinu nastaven
 
 ---
 
-## 4. Klíčové soubory (z cheatsheetu „KEY FILE LOCATIONS")
+## 4. Klíčové soubory
 
 | Soubor | Scope | Co tam patří |
 |---|---|---|
